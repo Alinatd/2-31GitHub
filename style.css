@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: beige;
+    margin: 20px;
+    transition: all 0.3 ease;
+}
+input:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0 0 20px darkblue;
+}
+button{
+    width: 70px;
+    border: 2px solid darkgreen;
+border-radius: 25px;
+background: green;
+box-shadow: 0 0 20px black;
+cursor: pointer;
+}
+.container{ 
+    background-color:red;
+    margin: 30px;
+    width: 700px;
+    height: auto;
+    padding: 40px;
+    border: 2px solid;
+    border-radius: 12px;
+}
+#textInner{
+   
+    background-color: blue;
+}
+h1{
+    font-size: 27px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    box-shadow: 0 0 10px orange;
+
+}
